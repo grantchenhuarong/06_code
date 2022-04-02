@@ -6,7 +6,7 @@ import javax.jws.WebService;
 /**
  * 暴露服务名称
  */
-@WebService(name = "revSMS", targetNamespace = "http://sms.gpdi.com")
+@WebService(name = "revSMS", targetNamespace = "http://sms.xxxx.com")
 public interface RevSMSService {
 
     @WebMethod
