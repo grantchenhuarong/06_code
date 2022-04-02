@@ -1,4 +1,4 @@
-package com.gpdi.schedule.webservice;
+package com.xxxx.schedule.webservice;
 
 import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
 
