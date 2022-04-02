@@ -1,7 +1,7 @@
 package com.gpdi.schedule.webservice;
 
-import com.gpdi.schedule.dao.SMSEchoDao;
-import com.gpdi.schedule.entity.sms.SMSEcho;
+import com.xxxx.schedule.dao.SMSEchoDao;
+import com.xxxx.schedule.entity.sms.SMSEcho;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -13,8 +13,8 @@ import java.util.Date;
  * 与接口中指定的服务名称一致
  */
 @WebService(serviceName = "revSMS",
-        targetNamespace = "http://sms.gpdi.com",
-        endpointInterface = "com.gpdi.schedule.webservice.RevSMSService"
+        targetNamespace = "http://sms.xxxx.com",
+        endpointInterface = "com.xxxx.schedule.webservice.RevSMSService"
 )
 @Component
 public class RevSMSServiceImpl implements RevSMSService {
